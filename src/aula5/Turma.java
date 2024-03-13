@@ -3,7 +3,7 @@ package aula5;
 import java.util.ArrayList;
 
 public class Turma {
-    private final ArrayList<Aluno> alunos = new ArrayList<Aluno>();
+    private final ArrayList<Aluno> alunos = new ArrayList<>();
 
     public void addAluno(Aluno aluno){
         this.alunos.add(aluno);
