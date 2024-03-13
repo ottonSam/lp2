@@ -10,7 +10,7 @@ public class Aluno {
     }
 
     public double calcularMedia(){
-        return (prova1.calcularNotaTotal() + prova2.calcularNotaTotal()) / 2;
+        return (getProva1().calcularNotaTotal() + getProva2().calcularNotaTotal()) / 2;
     }
 
     public Prova getProva1() {

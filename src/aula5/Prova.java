@@ -26,10 +26,10 @@ public class Prova {
     }
 
     public double calcularNotaTotal() {
-        if (notaParte1 + notaParte2 > 10.0) {
+        if (getNotaParte1() + getNotaParte2() > 10.0) {
             return 10.0;
         } else {
-            return notaParte1 + notaParte2;
+            return getNotaParte1() + getNotaParte2();
         }
     }
 }
