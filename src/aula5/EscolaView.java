@@ -35,7 +35,7 @@ public class EscolaView {
         prova6.setNotaParte1(4.0);
         prova6.setNotaParte2(5.0);
 
-        // Instanciando as provas aos alunos
+        // Cadastrando as provas aos alunos
         aluno1.setProva1(prova1);
         aluno1.setProva2(prova2);
 
@@ -45,7 +45,7 @@ public class EscolaView {
         aluno3.setProva1(prova5);
         aluno3.setProva2(prova6);
 
-        // Instanciando os alunos a turma
+        // Cadastrando os alunos a turma
         turma.addAluno(aluno1);
         turma.addAluno(aluno2);
         turma.addAluno(aluno3);

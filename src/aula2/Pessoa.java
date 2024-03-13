@@ -30,7 +30,7 @@ public class Pessoa {
         return (this.peso / (this.altura * this.altura));
     }
     
-    public void informarIMC(double imc) {
+    public String informarIMC(double imc) {
         String out = "";
         if (imc < 18.5) {
             out = "Pessoa a baixo do peso";
@@ -53,5 +53,6 @@ public class Pessoa {
                 }
             }
         }
+        return out;
     }
 }

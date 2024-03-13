@@ -23,6 +23,6 @@ public class CalculaIMCView {
         System.out.println("Peso => " + String.format("%.2f", pessoa.getPeso()));
         System.out.println("Altura => " + String.format("%.2f", pessoa.getAltura()));
         System.out.println("IMC => " + String.format("%.2f", imc));
-        pessoa.informarIMC(imc);
+        System.out.println(pessoa.informarIMC(imc));
     }
 }
