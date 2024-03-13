@@ -26,10 +26,6 @@ public class Prova {
     }
 
     public double calcularNotaTotal() {
-        if (getNotaParte1() + getNotaParte2() > 10.0) {
-            return 10.0;
-        } else {
-            return getNotaParte1() + getNotaParte2();
-        }
+        return Math.min(getNotaParte1() + getNotaParte2(), 10.0);
     }
 }
