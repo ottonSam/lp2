@@ -31,28 +31,26 @@ public class Pessoa {
     }
     
     public String informarIMC(double imc) {
-        String out = "";
         if (imc < 18.5) {
-            out = "Pessoa a baixo do peso";
+            return "Pessoa a baixo do peso";
         } else {
             if (imc < 25.0) {
-                out = "Pessoa com peso normal";
+                return "Pessoa com peso normal";
             } else {
                 if (imc < 30.0){
-                    out = "Pessoa com pre obesidade";
+                    return "Pessoa com pre obesidade";
                 } else {
                     if (imc < 35.0){
-                        out = "Pessoa com obesidade grau I";
+                        return "Pessoa com obesidade grau I";
                     } else {
                         if (imc < 40){
-                            out = "Pessoa com obesidade grau II";
+                            return "Pessoa com obesidade grau II";
                         } else {
-                            out = "Pessoa com obesidade grau III";
+                            return "Pessoa com obesidade grau III";
                         }
                     }
                 }
             }
         }
-        return out;
     }
 }
